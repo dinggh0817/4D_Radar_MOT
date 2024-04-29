@@ -1,0 +1,140 @@
+{
+"default":{
+        "model": "CT",
+        "birth_rate": 0.05,
+        "p_s": 0.9,
+        "p_d": 0.8,
+        "clutter_rate": 200,
+        "extraction_thr": 0.85,
+        "ber_thr": 1e-3,
+        "poi_pruning_thr": 1e-2,
+        "eB_thr": 0.3,
+
+        "detected_ellipsoidal_gating_threshold": 12,
+        "undetected_ellipsoidal_gating_threshold": 12,
+        "max_gating_euclidean_distance": 5,
+        "new_birth_minimum_distance": 1.5,
+
+        "velocity_prior_deviation": 2,
+
+        "mean_target_dimension": [2,2],
+
+        "meas_deviation": [0.1, 0.1],
+
+        "acceleration_deviation": 1,
+        "turn_rate_noise_deviation": 0.25,
+
+        "kinematic_prior_covariance": [1e0, 1e0, 1e0, 1e0, 1e0],
+
+        "snr_thld": 10,
+        "vel_thld": 0,
+        "score_thld": 0,
+
+        "VOXEL_SIZE": 0.1
+},
+
+"car":{
+        "model": "CV",
+        "birth_rate": 0.05,
+        "p_s": 0.7,
+        "p_d": 0.75,
+        "clutter_rate": 15,
+        "extraction_thr": 0.9,
+        "ber_thr": 1e-03,
+        "poi_pruning_thr": 1e-3,
+        "eB_thr": 0.05,
+
+        "detected_ellipsoidal_gating_threshold": 12,
+        "undetected_ellipsoidal_gating_threshold": 14,
+        "max_gating_euclidean_distance": 3,
+        "new_birth_minimum_distance": 2,
+
+        "velocity_prior_deviation": 5,
+
+        "mean_target_dimension": [6,3],
+
+        "meas_deviation": [0.5, 0.2],
+
+        "acceleration_deviation": 3,
+        "turn_rate_noise_deviation": 0.1,
+
+        "kinematic_prior_covariance": [1e1, 1e1, 1e0, 1e0, 1e0],
+
+        "snr_thld": 0,
+        "vel_thld": 0,
+        "score_thld": 0.15,
+        "nms_iou_thld": 0.1,
+
+        "VOXEL_SIZE": 0.1
+},
+
+"cyclist":{
+        "model": "CV",
+        "birth_rate": 0.1,
+        "p_s": 0.8,
+        "p_d": 0.8,
+        "clutter_rate": 5,
+        "extraction_thr": 0.9,
+        "ber_thr": 1e-06,
+        "poi_pruning_thr": 1e-3,
+        "eB_thr": 0.1,
+
+        "detected_ellipsoidal_gating_threshold": 14,
+        "undetected_ellipsoidal_gating_threshold": 14,
+        "max_gating_euclidean_distance": 5,
+        "new_birth_minimum_distance": 1.5,
+
+        "velocity_prior_deviation": 5,
+
+        "mean_target_dimension": [2,1],
+
+        "meas_deviation": [0.5, 0.5],
+
+        "acceleration_deviation": 5,
+        "turn_rate_noise_deviation": 0.25,
+
+        "kinematic_prior_covariance": [1e1, 1e1, 1e0, 1e0, 1e0],
+
+        "snr_thld": 0,
+        "vel_thld": 0,
+        "score_thld": 0.21,
+        "nms_iou_thld": 0.1,
+
+        "VOXEL_SIZE": 0.1
+},
+
+"pedestrian":{
+        "model": "CV",
+        "birth_rate": 0.1,
+        "p_s": 0.8,
+        "p_d": 0.8,
+        "clutter_rate": 10,
+        "extraction_thr": 0.8,
+        "ber_thr": 1e-06,
+        "poi_pruning_thr": 1e-3,
+        "eB_thr": 0.1,
+
+        "detected_ellipsoidal_gating_threshold": 12,
+        "undetected_ellipsoidal_gating_threshold": 14,
+        "max_gating_euclidean_distance": 5,
+        "new_birth_minimum_distance": 1,
+
+        "velocity_prior_deviation": 5,
+
+        "mean_target_dimension": [1,1],
+
+        "meas_deviation": [0.5, 0.5],
+
+        "acceleration_deviation": 3,
+        "turn_rate_noise_deviation": 0.25,
+
+        "kinematic_prior_covariance": [1e0, 1e0, 1e0, 1e0, 1e0],
+
+        "snr_thld": 0,
+        "vel_thld": 0,
+        "score_thld": 0.2,
+        "nms_iou_thld": 0.1,
+
+        "VOXEL_SIZE": 0.1
+}
+}
