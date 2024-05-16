@@ -1,6 +1,6 @@
 # 4D_Radar_MOT
 
-The code for reproducing experiment results in the conference paper "Which Framework is Suitable for Online 3D Multi-Object Tracking for Autonomous Driving with Automotive 4D Imaging Radar?" in *35th IEEE Intelligent Vehicles Symposium (IV 2024)*, # Oral Presentation (Top 5%) #.
+The code for reproducing experiment results in the conference paper "Which Framework is Suitable for Online 3D Multi-Object Tracking for Autonomous Driving with Automotive 4D Imaging Radar?" in *35th IEEE Intelligent Vehicles Symposium (IV 2024)*, **Oral Presentation (Top 5%)**.
 
 ## Installation
 - Clone the repository and enter the directory.
